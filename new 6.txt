@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image with Clickable Point</title>
+</head>
+<body>
+    <!-- Main image with a clickable area -->
+    <img src="Figure 1.jpg" usemap="#image-map" alt="Main Image" width="600">
+
+    <!-- Define the image map -->
+    <map name="image-map">
+        <!-- Define a clickable point -->
+        <area shape="rect" coords="100,100,120,120" href="NH.jpg" alt="Clickable Point" target="_blank">
+    </map>
+</body>
+</html>
